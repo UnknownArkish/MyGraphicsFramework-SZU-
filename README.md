@@ -16,9 +16,14 @@
 - 没有实现垃圾回收机制，因此可能会有严重的内存泄露问题
 
 ## 如何使用
-- 使用Visual Stdio 2017（或以上版本）打开FinalAssignment.sln，编译即可创建exe文件
+- 使用Visual Stdio 2017（或以上版本）打开FinalAssignment.sln，编译即可创建运行demo场景的exe文件
 - 注意：编译生成的exe文件运行的是下面的demo场景，资源需要被放置在exe的目录下
 - 注意：依赖的OpenGL头文件和库放置在VC文件夹下，而且已经配置在解决方案中配置好了
+### 解决方案中的代码
+- Framework——框架代码
+- Application——Demo场景代码
+
+---
 
 ## 示例Demo
 ### 加载并创建一个小草模型
@@ -29,6 +34,7 @@
 - demo场景代码被放置在TestScene.c/h当中
 - demo场景需要的资源放置在Resources文件夹下，需要和编译生成的exe文件放置在同一个目录下
 ![demo](https://github.com/UnknownArkish/MyGraphicsFramework-SZU-/blob/master/DemoScreenshot/demo1.png "demo")
+
 ## 框架包含以下模块
 ### 基本模块ObjectSystem
 - 基本的数据对象，例如不会进行渲染的Ref、Node、Scene，会进行渲染的Plane、Cube等
