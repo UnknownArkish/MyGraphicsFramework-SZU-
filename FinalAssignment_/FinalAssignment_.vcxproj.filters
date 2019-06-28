@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Consts">
+      <UniqueIdentifier>{c02c2662-6670-4942-b253-c0a394ced63a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tools">
+      <UniqueIdentifier>{25944a62-b7e5-4d10-ad3b-c7ef39dad265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tools">
+      <UniqueIdentifier>{aa3eeac8-d687-4ce5-92a1-816c5ad67e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework">
+      <UniqueIdentifier>{46b1add8-f44e-46dd-a828-414668f15e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework">
+      <UniqueIdentifier>{e60a5c02-7742-4544-a636-49d690280bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Useless">
+      <UniqueIdentifier>{4d66b977-fd8d-4801-833b-bf577184347a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Useless\Listener">
+      <UniqueIdentifier>{11b30b0d-b1e9-4990-86c7-07bfd2110b09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\OpenGL">
+      <UniqueIdentifier>{2f69594b-16ae-4384-b70c-f62c691391b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\InputSystem">
+      <UniqueIdentifier>{8da17902-bd41-4f6a-9ceb-48f4f8d12e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\InputSystem\Listener">
+      <UniqueIdentifier>{b471748d-dd18-4c88-95a3-38fdbb7df077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\InputSystem\Args">
+      <UniqueIdentifier>{e49fbb52-c20f-456f-9df7-21c4b7ef7b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\CameraSystem">
+      <UniqueIdentifier>{7defd886-435b-4e48-ba84-0ac0a83e3312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\CameraSystem">
+      <UniqueIdentifier>{667e383f-62cb-43c7-8df0-4b5ec9f25677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Application">
+      <UniqueIdentifier>{7ed19416-128c-43c1-aa0d-29ed66f0d2a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Application">
+      <UniqueIdentifier>{a1adb29b-7ae8-437b-b0ca-e987651e7a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Consts">
+      <UniqueIdentifier>{89791bc3-8ca7-492b-b567-603d6d4a5aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\InputSystem">
+      <UniqueIdentifier>{8182a05b-ad98-4deb-b31f-68e41c0d7a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\LightSystem">
+      <UniqueIdentifier>{65079c4f-a485-4200-99ce-621dcfb5464b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Info">
+      <UniqueIdentifier>{a8c515bd-49b8-4373-a287-592f1a00dadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Resources">
+      <UniqueIdentifier>{fb46655c-15b0-4dce-b51c-b358f996ba5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Resources\Shader">
+      <UniqueIdentifier>{def9e738-70d7-4b5c-8468-95a535baee2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Resources\Model">
+      <UniqueIdentifier>{8c92d8fc-68d2-4a75-9cbe-a8a43844821d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Resources\Texture">
+      <UniqueIdentifier>{ed298d7f-0118-48bb-9be2-e624b4d6f7a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Resources\Model\OFF">
+      <UniqueIdentifier>{9fadbc1d-74a1-4d3a-a494-75cbcdf834c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Resources\Model\OBJ">
+      <UniqueIdentifier>{8b8b88b3-c7db-4282-81f5-030a9bf027c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Useless\Scene">
+      <UniqueIdentifier>{8fa3f632-030c-479e-bb3f-6bf34d1c9af3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\Model">
+      <UniqueIdentifier>{cd7e04f2-6cfa-4f08-b90e-d040a1740ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\Model">
+      <UniqueIdentifier>{7e920cb4-7b0b-4295-b22e-6f3ed5ab626b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Application\Scene">
+      <UniqueIdentifier>{6c7e4426-2b82-4a80-a383-90f47374f743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Application\Scene">
+      <UniqueIdentifier>{574ea02a-62aa-4927-a832-b98c2903309f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\LightSystem\Light">
+      <UniqueIdentifier>{ab050915-fcfe-4adc-b80d-7e0e491c38d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ResourcesSystem">
+      <UniqueIdentifier>{63304e3b-ee0f-4270-a34c-9696dbb4e38a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ResourcesSystem">
+      <UniqueIdentifier>{8f04840d-355a-4d20-becd-4d6c81d45e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ResourcesSystem\Texture">
+      <UniqueIdentifier>{b6ec2050-5145-4da0-a635-693d0f377125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ResourcesSystem\Texture">
+      <UniqueIdentifier>{86e808e6-cc7c-4f3b-af90-bfb975259ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ResourcesSystem\Shader">
+      <UniqueIdentifier>{43cd00ed-8a4a-43c0-a2f6-64154c5f3b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ResourcesSystem\Shader">
+      <UniqueIdentifier>{7104bcb2-8f34-4281-963b-ed91a3e24ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Application\Object">
+      <UniqueIdentifier>{57373327-6a13-4d06-b5ae-5348f6b9f16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Application\Controller">
+      <UniqueIdentifier>{ad051fba-7bea-4b89-bd5d-c350e90b23df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Application\Object">
+      <UniqueIdentifier>{744e3628-2636-4945-8941-78a0bf64ff9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Application\Controller">
+      <UniqueIdentifier>{29b2540f-94ba-403c-adfc-656944ba4de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reference">
+      <UniqueIdentifier>{de4fd39e-c388-4c22-af57-597ba9853c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\LightSystem">
+      <UniqueIdentifier>{31bad234-4466-45ee-ab44-8e9c1c7cbe54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\LightSystem\Light">
+      <UniqueIdentifier>{ce124be7-f4b0-473f-8c2c-f6cb61725f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ObjectSystem">
+      <UniqueIdentifier>{8d5dd010-e5da-41fe-89ac-bd99e1c43bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ObjectSystem\Renderer">
+      <UniqueIdentifier>{b523ac34-70de-4dfa-aa6e-c55e1f2c4aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ObjectSystem\BaseObject">
+      <UniqueIdentifier>{f2ae2b07-449d-45cf-8a7a-c97fa929c315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ObjectSystem\Object">
+      <UniqueIdentifier>{d2f35c3c-0796-4222-9488-b5aca8126d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ObjectSystem\Object\Model">
+      <UniqueIdentifier>{fdc0afee-da6d-489d-861a-879d8ed8d232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Framework\ObjectSystem\Object\Animator">
+      <UniqueIdentifier>{dcea5d07-de17-4e70-8003-36087383a0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ObjectSystem">
+      <UniqueIdentifier>{6763738a-acb4-4655-82ad-9f0e03de35ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ObjectSystem\Renderer">
+      <UniqueIdentifier>{93d67c49-095a-4fd0-a36f-d4068fa97ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ObjectSystem\BaseObject">
+      <UniqueIdentifier>{3fd01ae7-75e3-4468-bd52-1372e0c4eff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ObjectSystem\Object">
+      <UniqueIdentifier>{8b01536f-f37e-45e5-ad99-058aba0bc34d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ObjectSystem\Object\Model">
+      <UniqueIdentifier>{3747c147-8751-4022-a1fc-c3f44c96244d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Framework\ObjectSystem\Object\Animator">
+      <UniqueIdentifier>{12746465-deb2-4547-8eb4-bc59a57b1a00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>头文件\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Consts.h">
+      <Filter>头文件\Consts</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件\Consts</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>头文件\Framework\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardListener.h">
+      <Filter>头文件\Framework\InputSystem\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="TestKeyboardListener.h">
+      <Filter>Useless\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEventArgs.h">
+      <Filter>头文件\Framework\InputSystem\Args</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEventArgs.h">
+      <Filter>头文件\Framework\InputSystem\Args</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMouseListener.h">
+      <Filter>Useless\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseMotionListener.h">
+      <Filter>头文件\Framework\InputSystem\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePassiveListener.h">
+      <Filter>头文件\Framework\InputSystem\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSystem.h">
+      <Filter>头文件\Framework\LightSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseLight.h">
+      <Filter>头文件\Framework\LightSystem\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystem.h">
+      <Filter>头文件\Framework\CameraSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseController.h">
+      <Filter>头文件\Framework\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\OFFMesh.h">
+      <Filter>头文件\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\ObjMesh.h">
+      <Filter>头文件\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel.h">
+      <Filter>头文件\Framework\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>头文件\Framework\ObjectSystem\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeRenderer.h">
+      <Filter>头文件\Framework\ObjectSystem\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="EntranceScene.h">
+      <Filter>头文件\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionLight.h">
+      <Filter>头文件\Framework\LightSystem\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>头文件\Framework\LightSystem\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>头文件\Framework\LightSystem\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件\Framework\ObjectSystem\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesSystem.h">
+      <Filter>头文件\Framework\ResourcesSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelResource.h">
+      <Filter>头文件\Framework\ResourcesSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMesh.h">
+      <Filter>头文件\Framework\ObjectSystem\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelNode.h">
+      <Filter>头文件\Framework\ObjectSystem\Object\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\Shader_GLUT.h">
+      <Filter>头文件\Framework\ResourcesSystem\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\Texture_GLUT.h">
+      <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMap.h">
+      <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureInfo.h">
+      <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件\Framework\ObjectSystem\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Ref.h">
+      <Filter>头文件\Framework\ObjectSystem\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件\Framework\ObjectSystem\BaseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>头文件\Framework\ObjectSystem\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCamera.h">
+      <Filter>头文件\Framework\ObjectSystem\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>头文件\Framework\ObjectSystem\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>头文件\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>头文件\Framework\ObjectSystem\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotController.h">
+      <Filter>Useless</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNode.h">
+      <Filter>Useless</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>头文件\Framework\ObjectSystem\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneRenderer.h">
+      <Filter>头文件\Framework\ObjectSystem\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotMap.h">
+      <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator2D.h">
+      <Filter>头文件\Framework\ObjectSystem\Object\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>头文件\Application\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator2_5D.h">
+      <Filter>头文件\Framework\ObjectSystem\Object\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>头文件\Application\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="MyScene.h">
+      <Filter>头文件\Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseAnimationConroller.h">
+      <Filter>头文件\Application\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="RobotAnimationController.h">
+      <Filter>头文件\Application\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="UseCharacter.h">
+      <Filter>Reference</Filter>
+    </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>头文件\Application\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>头文件\Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FinalAssignment_.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\I love study\openGL\VC\glad.c">
+      <Filter>源文件\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\I love study\openGL\VC\stb_image.cpp">
+      <Filter>源文件\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>源文件\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>源文件\Framework\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TestKeyboardListener.cpp">
+      <Filter>Useless\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMouseListener.cpp">
+      <Filter>Useless\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSystem.cpp">
+      <Filter>源文件\Framework\LightSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSystem.cpp">
+      <Filter>源文件\Framework\CameraSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseController.cpp">
+      <Filter>源文件\Framework\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Consts.cpp">
+      <Filter>源文件\Consts</Filter>
+    </ClCompile>
+    <ClCompile Include="GameModel.cpp">
+      <Filter>源文件\Framework\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeRenderer.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="EntranceScene.cpp">
+      <Filter>源文件\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseLight.cpp">
+      <Filter>源文件\Framework\LightSystem\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionLight.cpp">
+      <Filter>源文件\Framework\LightSystem\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>源文件\Framework\LightSystem\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>源文件\Framework\LightSystem\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourcesSystem.cpp">
+      <Filter>源文件\Framework\ResourcesSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMesh.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelNode.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\I love study\openGL\VC\Shader_GLUT.cpp">
+      <Filter>源文件\Framework\ResourcesSystem\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\I love study\openGL\VC\Texture_GLUT.cpp">
+      <Filter>源文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMap.cpp">
+      <Filter>源文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件\Framework\ObjectSystem\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Ref.cpp">
+      <Filter>源文件\Framework\ObjectSystem\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\Framework\ObjectSystem\BaseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCamera.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>源文件\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotController.cpp">
+      <Filter>Useless</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNode.cpp">
+      <Filter>Useless</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneRenderer.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotMap.cpp">
+      <Filter>源文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator2D.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>源文件\Application\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>源文件\Application\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="MyScene.cpp">
+      <Filter>源文件\Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator2_5D.cpp">
+      <Filter>源文件\Framework\ObjectSystem\Object\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseAnimationController.cpp">
+      <Filter>源文件\Application\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="RobotAnimationController.cpp">
+      <Filter>源文件\Application\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="UseCharacter.cpp">
+      <Filter>Reference</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>源文件\Application\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>源文件\Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Model\OFF\cube.off">
+      <Filter>资源文件\Resources\Model\OFF</Filter>
+    </None>
+    <None Include="Resources\Shader\CubeShader.vs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shader\ModelShader.fs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shader\ModelShader.vs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shader\CubeShader.fs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shader\SkyboxShader.fs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shader\SkyboxShader.vs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shader\PlaneShader.fs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+    <None Include="Resources\Shader\PlaneShader.vs">
+      <Filter>资源文件\Resources\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>
