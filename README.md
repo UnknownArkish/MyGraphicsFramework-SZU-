@@ -28,7 +28,7 @@
 ### 一个demo场景
 - demo场景代码被放置在TestScene.c/h当中
 - demo场景需要的资源放置在Resources文件夹下，需要和编译生成的exe文件放置在同一个目录下
-![截图场景](https://github.com/UnknownArkish/MyGraphicsFramework-SZU-/blob/master/DemoScreenshot/demo1.png,"截图场景")
+![demo](https://github.com/UnknownArkish/MyGraphicsFramework-SZU-/blob/master/DemoScreenshot/demo1.png "demo")
 ## 框架包含以下模块
 ### 基本模块ObjectSystem
 - 基本的数据对象，例如不会进行渲染的Ref、Node、Scene，会进行渲染的Plane、Cube等
