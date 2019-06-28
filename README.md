@@ -24,7 +24,7 @@
 ### 加载并创建一个小草模型
 1. 加载资源: `ResourcesSystem::GetInstance()->LoadModel("grass.fbx", "grass");`
 2. 创建模型对象: `Model* grass = Model::Create( ResourcesSystem::GetInstance()->GetModelResources("grass") );`
-3. 放置模型对象到场景中: `this-AddChild(grass);`
+3. 放置模型对象到场景中: `this->AddChild(grass);`
 ### 一个demo场景
 - demo场景代码被放置在TestScene.c/h当中
 - demo场景需要的资源放置在Resources文件夹下，需要和编译生成的exe文件放置在同一个目录下
