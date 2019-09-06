@@ -151,10 +151,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\ObjMesh.h" />
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\OFFMesh.h" />
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\Shader_GLUT.h" />
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\Texture_GLUT.h" />
+    <ClInclude Include="..\VC\include\ObjMesh.h" />
+    <ClInclude Include="..\VC\include\OFFMesh.h" />
+    <ClInclude Include="..\VC\include\Shader_GLUT.h" />
+    <ClInclude Include="..\VC\include\Texture_GLUT.h" />
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Animator2D.h" />
     <ClInclude Include="Animator2_5D.h" />
@@ -212,10 +212,10 @@
     <ClInclude Include="UseCharacter.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\glad.c" />
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\Shader_GLUT.cpp" />
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\stb_image.cpp" />
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\Texture_GLUT.cpp" />
+    <ClCompile Include="..\VC\glad.c" />
+    <ClCompile Include="..\VC\Shader_GLUT.cpp" />
+    <ClCompile Include="..\VC\stb_image.cpp" />
+    <ClCompile Include="..\VC\Texture_GLUT.cpp" />
     <ClCompile Include="Animator2D.cpp" />
     <ClCompile Include="Animator2_5D.cpp" />
     <ClCompile Include="BaseLight.cpp" />

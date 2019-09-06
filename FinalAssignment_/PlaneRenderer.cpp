@@ -73,10 +73,10 @@ void PlaneRenderer::BindObject()
 	glGenBuffers(1, &EBO);
 
 	glBindVertexArray(m_PlaneVao);
-
+	// 绑定顶点数组数据
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_DYNAMIC_DRAW);
-
+	// 绑定顶点索引数组数据
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_DYNAMIC_DRAW);
 
@@ -167,7 +167,7 @@ void PlaneRenderer::Render(Plane * plane, bool toLighted)
 		}
 
 
-		// 最后进行绘制
+		// 使用VAO中的EBO进行绘制
 		glBindVertexArray(m_PlaneVao);
 		glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 	}

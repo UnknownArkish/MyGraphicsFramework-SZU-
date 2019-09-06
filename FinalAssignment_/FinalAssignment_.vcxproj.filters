@@ -234,12 +234,6 @@
     <ClInclude Include="BaseController.h">
       <Filter>头文件\Framework\InputSystem</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\OFFMesh.h">
-      <Filter>头文件\Info</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\ObjMesh.h">
-      <Filter>头文件\Info</Filter>
-    </ClInclude>
     <ClInclude Include="GameModel.h">
       <Filter>头文件\Framework\Model</Filter>
     </ClInclude>
@@ -275,12 +269,6 @@
     </ClInclude>
     <ClInclude Include="ModelNode.h">
       <Filter>头文件\Framework\ObjectSystem\Object\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\Shader_GLUT.h">
-      <Filter>头文件\Framework\ResourcesSystem\Shader</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\I love study\openGL\VC\include\Texture_GLUT.h">
-      <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
     </ClInclude>
     <ClInclude Include="CubeMap.h">
       <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
@@ -360,6 +348,18 @@
     <ClInclude Include="Game.h">
       <Filter>头文件\Framework</Filter>
     </ClInclude>
+    <ClInclude Include="..\VC\include\ObjMesh.h">
+      <Filter>头文件\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VC\include\OFFMesh.h">
+      <Filter>头文件\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VC\include\Shader_GLUT.h">
+      <Filter>头文件\Framework\ResourcesSystem\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VC\include\Texture_GLUT.h">
+      <Filter>头文件\Framework\ResourcesSystem\Texture</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -367,12 +367,6 @@
     </ClCompile>
     <ClCompile Include="FinalAssignment_.cpp">
       <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\glad.c">
-      <Filter>源文件\Framework\OpenGL</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\stb_image.cpp">
-      <Filter>源文件\Framework\OpenGL</Filter>
     </ClCompile>
     <ClCompile Include="Tools.cpp">
       <Filter>源文件\Tools</Filter>
@@ -433,12 +427,6 @@
     </ClCompile>
     <ClCompile Include="ModelNode.cpp">
       <Filter>源文件\Framework\ObjectSystem\Object\Model</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\Shader_GLUT.cpp">
-      <Filter>源文件\Framework\ResourcesSystem\Shader</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\I love study\openGL\VC\Texture_GLUT.cpp">
-      <Filter>源文件\Framework\ResourcesSystem\Texture</Filter>
     </ClCompile>
     <ClCompile Include="CubeMap.cpp">
       <Filter>源文件\Framework\ResourcesSystem\Texture</Filter>
@@ -508,6 +496,18 @@
     </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>源文件\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VC\stb_image.cpp">
+      <Filter>源文件\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VC\glad.c">
+      <Filter>源文件\Framework\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VC\Shader_GLUT.cpp">
+      <Filter>源文件\Framework\ResourcesSystem\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VC\Texture_GLUT.cpp">
+      <Filter>源文件\Framework\ResourcesSystem\Texture</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
