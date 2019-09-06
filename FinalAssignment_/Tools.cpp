@@ -67,7 +67,7 @@ std::vector<std::string> Tools::GetFileNameInFolder(std::string folderPath)
 void Tools::GetFileNameInFolder(std::string folderPath, std::vector<std::string>& dest)
 {
 	//文件句柄  
-	long   hFile = 0;
+	intptr_t   hFile = 0;
 	//文件信息  
 	struct _finddata_t fileinfo;
 	std::string p;
